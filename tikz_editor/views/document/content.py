@@ -44,9 +44,9 @@ class ContentView(QMainWindow):
 		view.setFocus()
 
 	def initView(self):
-		self.source_editor_view.cursorPositionChanged.connect(self._sourceCursorPositionChanged)
-		self.source_editor_view.selectionChanged.connect(self._sourceSelectionChanged)
-		self.source_editor_view.modificationAttempted.connect(self._sourceModificationAttemptedWhileReadOnly)
+		#self.source_editor_view.cursorPositionChanged.connect(self._sourceCursorPositionChanged)
+		#self.source_editor_view.selectionChanged.connect(self._sourceSelectionChanged)
+		#self.source_editor_view.modificationAttempted.connect(self._sourceModificationAttemptedWhileReadOnly)
 		self._initToolBar()
 		self._initStackedWidgets()
 
